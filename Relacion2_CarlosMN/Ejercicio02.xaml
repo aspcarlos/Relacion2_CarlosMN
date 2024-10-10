@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Relacion2_CarlosMN.Ejercicio02"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Ejercicio02"
+    BackgroundColor="Black">
+    <Grid
+        Padding="40"
+        ColumnDefinitions="*, *, *, *"
+        RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto">
+
+        <!--  Label de título  -->
+        <Label
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Margin="5"
+            FontAttributes="Bold"
+            FontSize="20"
+            HorizontalTextAlignment="Center"
+            Text="R2: Ejercicio 2"
+            TextColor="#CCCCCC" />
+
+        <!--  Entrada de la calculadora  -->
+        <Entry
+            x:Name="EntradaCalculadora"
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Margin="5"
+            BackgroundColor="#2A2A2A"
+            Keyboard="Text"
+            Placeholder=""
+            PlaceholderColor="#7d7c7c"
+            TextColor="#CCCCCC" />
+
+        <!--  Botones de la calculadora  -->
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_7"
+            FontSize="20"
+            Text="7"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_8"
+            FontSize="20"
+            Text="8"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="2"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_9"
+            FontSize="20"
+            Text="9"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="3"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_Multiplicar"
+            FontSize="20"
+            Text="*"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="0"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_4"
+            FontSize="20"
+            Text="4"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="1"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_5"
+            FontSize="20"
+            Text="5"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_6"
+            FontSize="20"
+            Text="6"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="3"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_Sumar"
+            FontSize="20"
+            Text="+"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_1"
+            FontSize="20"
+            Text="1"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="1"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_2"
+            FontSize="20"
+            Text="2"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="2"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_3"
+            FontSize="20"
+            Text="3"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="3"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_Dividir"
+            FontSize="20"
+            Text="÷"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="0"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_0"
+            FontSize="20"
+            Text="0"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="1"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_Porcentaje"
+            FontSize="20"
+            Text="%"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="2"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_Restar"
+            FontSize="20"
+            Text="-"
+            TextColor="White" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="3"
+            Margin="5"
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked_Igual"
+            FontSize="20"
+            Text="="
+            TextColor="White" />
+    </Grid>
+</ContentPage>
